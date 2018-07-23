@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>log5</title>
+	<style type="text/css">
+		label{
+			width: 200px;
+		}
+		.topnav{
+			text-align: center;
+			font-size: 30px;
+			width: 664px;
+			margin: auto;
+			width: 400px;
+			background-color: green;
+		}
+		.topnav:hover{
+			background-color: grey;
+		}
+		form{
+			padding-left: 400px;
+			padding-right:450px;
+			padding-top: 20px;
+		}
+		body{
+			background-image: url(air.jpg);
+			background-repeat: no-repeat;
+			background-size:cover;
+		}
+		.button{
+			background-color: blue;
+			color: white;
+			margin-left: 200px;
+		}
+	</style>
+</head>
+<body>
+	<marquee><h1>Classy Booking Form</h1></marquee>
+	<div class="topnav">
+		<a href="all.html">Home</a>
+		<a href="#contact">Contact</a>
+		<a href="log2.html">Register</a>
+		<a href="log5.html">Booking</a>
+	</div><br>
+	<form>
+		<fieldset>
+		<label for="Full Name :" style="float:left;">Full Name :</label>
+		<input type="username" name="username" required=""><br></br>
+		<label for="Email ID :" style="float: left;">Email ID :</label>
+		<input type="email" name="email" required=""><br></br>
+		<label for="Phone Number : " style="float: left;">Phone Number : </label>
+		<input type="Phone" name="Phone"><br></br>
+		<label for="Departure Date :" style="float: left;">Departure Date :</label>
+		<input type="Date" name="Date" min="08-07-2018"><input type="time" name="time" value="time" required=""><br></br>
+		<label for="Return Date :" style="float: left;">Return Date :</label>
+		<input type="Date" name="Date"><input type="time" name=""><br></br>
+		<label for="Pickup Address : " style="float: left;">Pickup Address : </label>
+		<textarea rows="2" cols="20">Address</textarea><br></br>
+		<label for="Destination Address : " style="float: left;">Destination Address : </label>
+		<textarea rows="2" cols="20">Address</textarea><br></br>
+		<label for="Journey Type: " style="float: left;">Journey Type: </label>
+		<select name="Journey">
+			<option value="passenger">Passenger</option>
+			<option value="a/c Classy">A/C Class</option>
+			<option value="sleeper">Sleeper</option>
+		</select><br></br>
+		<label for="Number of Passengers : " style="float: left;">Number of Passengers : </label>
+		<select name="Number">
+			<option value="0">0</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+		</select><br></br>
+		<label for="Additional message : " style="float: left;">Additional message : </label>
+		<textarea rows="2" cols="20">Message</textarea><br></br>
+		<input type="submit" name="" value="Submit" class="button">
+	</fieldset></form>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Log3</title>
+	<style type="text/css">
+		.button{
+			background-color: blue;
+			margin-left: 50px;
+		}
+		h1{
+			margin-left: 500px;
+			color: red;
+		}
+		body{
+			background-image: url(rr.jpg);
+			background-repeat: no-repeat;
+			background-size: 100%;
+		}
+		form{
+			border: 2px solid black;
+			margin-left: auto;
+			border-radius: 10px;
+			margin-right: auto;
+			padding-left: 50px;
+			padding-top: 25px;
+			padding-bottom: 15px;
+			background-image: url(images.jpg);
+			background-size: 100%;	
+		}
+		label{
+			margin-top: 30px;
+			margin-left: 30px;
+			height: 20px;
+			width: 20px;
+			text-align: right;
+			clear: both;
+		}
+		input{
+			float: left;
+			margin-top: 20px;
+		}
+	</style>
+</head>
+<body>
+	<marquee><h1>Classy Booking Form</h1></marquee>
+	<form>
+		<fieldset>
+			<label for="Full Name :" style="float:left;">Full Name</label>
+		<input type="username" name="username" required=""><br></br>
+		<label for="Email ID :" style="float: left;">Email ID :</label>
+		<input type="email" name="email" required=""><br></br>
+		<label for="Phone Number : " style="float: left;">Phone Number : </label>
+		<input type="Phone" name="Phone"><br></br>
+		Departure Date : <input type="Date" name="Date" min="08-07-2018"><br><br>
+		Return Date : <input type="Date" name="Date"><br></br>
+		Pickup Address : <textarea rows="2" cols="20">Address</textarea><br></br>
+		Destination Address : <textarea rows="2" cols="20">Address</textarea><br></br>
+		Journey Type: <select name="Journey">
+			<option value="passenger">Passenger</option>
+			<option value="a/c Classy">A/C Class</option>
+			<option value="sleeper">Sleeper</option>
+		</select><br></br>
+		Number of Passengers : <select name="Number">
+			<option value="0">0</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+		</select><br></br>
+		Additional message : <textarea rows="2" cols="20">Message</textarea><br></br>
+		<input type="submit" name="" value="Submit" class="button">
+	</fieldset></form>
+	<video width="500" height="500" controls="">
+		<source src="E:\video songs\Luis Fonsi - Despacito ft. Daddy Yankee.mp4" type="video/mp4">
+	</video>
+</body>
+</html>
